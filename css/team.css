@@ -1,0 +1,18 @@
+/* [9. Team] */
+
+#team   { margin: auto; opacity: 0; }
+
+#team .calendar { float: left; display: block; }
+
+.team-list                  { overflow: hidden; margin-bottom: 30px; width: 920px;  list-style: none; margin: auto; }
+.team-list li               { float: left; width: 230px; height: 260px; overflow: hidden; position: relative; }
+.team-list li img           { width: 230px; height: 260px; display: block; }
+
+.team-list li.face div           { position: relative; left: 0; z-index: 2; text-transform: uppercase; color:#fff; display: none; width: 230px; height: 260px; }
+.team-list li.face div.overlay{ background-color: #3CB878; position: absolute; left: 0; top: 0; opacity: 0.9; }
+.team-list li.face div div       { display: table-cell; vertical-align: middle; text-align: center;   }
+.team-list li.face div ins       { font-size: 24px; line-height: 25px; display: block; position: relative; z-index: 111; }
+.team-list li.face div span      { display: block; font-size: 14px; }
+.team-list li.face:hover > div   { display: table; }
+.team-list li.face > div         { top: -260px; }
+

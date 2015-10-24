@@ -1,0 +1,69 @@
+/* [Blue Theme] */
+
+/* Preloader and general styles */
+body.loading    { background-image: url(../images/preloader-blue.gif); }
+body            { background-color: #f5f5f5; color: #3f4d5b; }
+
+/* Links color */
+a           { color:#3f4d5b; }
+a:hover     { color:#32a6dc !important; }
+
+/* Button styles */
+.btn        {background-color: #32a6dc;  border-bottom: 5px solid #2b8dbb; }
+.btn:hover  { background-color: #82d1f6; }
+
+/* links color into paragraphs */
+#content p a        { color:#32a6dc; }
+#content p a:hover  { color:#82d1f6 !important; }
+
+/* logo styles */
+#logo > a span:first-child{ color:#3f4d5b; }
+#logo > a span:last-child{ color:#32a6dc; }
+#logo > a:hover span{ color:#32a6dc; }
+
+/* Main menu links style */
+#menu ul li a       { color:#3f4d5b; }
+#menu ul li a:hover { color:#32a6dc; }
+
+/* Countdown styles */
+#countdown span              { color:#b6c0ca; }
+#countdown ins               { color:#d9e0e6; }
+
+/* Calendar styles */
+.calendar           { background-color:#32a6dc; }
+.calendar i         { background-color:#32a6dc; }
+.calendar:before    { border-top: 70px solid #82d1f6; }
+.calendar:after     { border-bottom: 70px solid #2b8dbb; }
+
+/* Panorama image */
+#panorama		{ background-image:url(../panorama/panorama.jpg); }
+
+/* face overlay background-color */
+.team-list li.face div.overlay{ background-color: #32a6dc; }
+
+/* copyrights color */
+.copyrights, .copyrights > a         { color:#d9d9d9; }
+
+/* feedback input styles */
+#feedback-form input[type="email"] 		{ background-color: #E2E2E2; color:#3f4d5b; }
+#feedback-form input[type="email"]::-webkit-input-placeholder { color:#cccccc; }
+#feedback-form input[type="email"]::-moz-placeholder { color:#cccccc; }
+
+/* Infobox corner background-color */
+.map-box:after  { border-top: 31px solid #2b8dbb; }
+
+/* Contacts styles */
+#contact-map .ib-inner > article     		{ background-color: #2b8dbb; }
+#contact-map .ib-inner > article a   		{ color:#82d1f6; }
+#contact-map .ib-inner > article a:hover	{ color:#82d1f6; }
+
+/* map close links styles */
+.mclose { background-color: #32a6dc; }
+
+/* change url to theme icons */
+[class^="ico-"] { background-image: url(../images/icons-blue.png); }
+.mapbox-close 	{ background-image: url(../images/icons-blue.png); }
+
+/* Mapmarker images */
+.mmarker{ background-image: url(../images/mapmarker-blue.png); }
+.mmarker-h{ background-image: url(../images/mapmarker-h-blue.png); }
